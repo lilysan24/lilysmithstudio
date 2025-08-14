@@ -4,15 +4,15 @@ import Image from 'next/image'
 export default function AboutSection() {
   return (
     <section id="about" className="min-h-screen flex items-center bg-gray-50">
-      <div className="max-w-7xl mx-auto px-8 py-20 w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 w-full">
         {/* Title with line */}
-        <div className="flex items-center mb-12">
-          <h2 className="text-5xl font-light pr-8">About</h2>
+        <div className="flex items-center mb-8 sm:mb-10 md:mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-light pr-4 sm:pr-6 md:pr-8">About</h2>
           <div className="flex-1 h-[1px] bg-black"></div>
         </div>
         
         {/* Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-start">
           {/* Left: Image */}
           <div>
             <div className="relative aspect-[3/4] bg-gray-100">
@@ -27,7 +27,7 @@ export default function AboutSection() {
           </div>
           
           {/* Right: Testimonial */}
-          <div className="pt-8">
+          <div className="pt-4 sm:pt-6 lg:pt-8">
             <h3 className="text-lg mb-8">01/03</h3>
             
             <blockquote className="text-gray-600 text-xl leading-relaxed italic">

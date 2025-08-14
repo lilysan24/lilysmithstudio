@@ -4,15 +4,15 @@ import Image from 'next/image'
 export default function ConnectSection() {
   return (
     <section id="connect" className="bg-gray-200 py-20">
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         {/* Title with line */}
-        <div className="flex items-center mb-12">
-          <h2 className="text-5xl font-light pr-8">Connect</h2>
+        <div className="flex items-center mb-8 sm:mb-10 md:mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-light pr-4 sm:pr-6 md:pr-8">Connect</h2>
           <div className="flex-1 h-[1px] bg-black max-w-2xl"></div>
         </div>
         
         {/* Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-start">
           {/* Left: Contact Info */}
           <div>
             <p className="text-lg mb-4">
