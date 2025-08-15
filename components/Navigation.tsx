@@ -61,12 +61,15 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 px-4 sm:px-8 py-4 sm:py-6">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo */}
-        <div className="font-inter">
-          <div className="text-xs sm:text-sm font-extrabold tracking-wider">LILY SMITH</div>
-          <div className="text-xs sm:text-sm font-normal tracking-wider">STUDIO</div>
+        {/* Logo — matches Figma exactly */}
+        <div className="leading-none font-helvetica-neue">
+        {/* LILY SMITH — Helvetica Neue Bold 38px, 0% letter-spacing */}
+        <div className="text-[38px] font-bold tracking-[0]">LILY SMITH</div>
+
+        {/* STUDIO — Helvetica Neue 45 Light 40px, 25% letter-spacing */}
+        <div className="text-[40px] font-light tracking-[0.25em]">STUDIO</div>
         </div>
-        
+
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-6 lg:space-x-8">
           <a href="#artist" className={navLinkClass('artist')}>artist</a>

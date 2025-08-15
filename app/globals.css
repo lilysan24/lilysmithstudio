@@ -1,3 +1,4 @@
+/* globals.css */
 @import "tailwindcss";
 
 @theme {
@@ -5,11 +6,12 @@
   --font-family-pt-mono: "PT Mono", monospace;
 }
 
-html {
-  scroll-behavior: smooth;
+/* System Helvetica Neue stack (legal to reference, no bundling) */
+.font-helvetica-neue {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+html { scroll-behavior: smooth; }
+
 /* Apply PT Mono to body text */
-p, .font-pt-mono {
-  font-family: "PT Mono", monospace;
-}
+p, .font-pt-mono { font-family: "PT Mono", monospace; }
