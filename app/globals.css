@@ -8,3 +8,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Apply PT Mono to body text */
+p, .font-pt-mono {
+  font-family: "PT Mono", monospace;
+}

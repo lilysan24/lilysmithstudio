@@ -26,6 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link href='https://fonts.googleapis.com/css?family=PT Mono' rel='stylesheet' />
+      </head>
       <body
         className={`${inter.variable} ${ptMono.variable} font-inter`}
         suppressHydrationWarning
