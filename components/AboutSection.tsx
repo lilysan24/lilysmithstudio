@@ -49,11 +49,11 @@ export default function AboutSection() {
                   <h3 className="text-lg mb-8">01/03</h3>
                   
                   <blockquote className="text-gray-600 text-xl leading-relaxed italic">
-                      &quot;Lily&apos;s expressive paintings<br/>
-                      and works on paper capture<br/>
-                      the essence of her subjects<br/>
-                      in every stroke – whether in<br/>
-                      portraits, landscapes, or<br/>
+                      &quot;Lily&apos;s expressive paintings
+                      and works on paper capture
+                      the essence of her subjects
+                      in every stroke – whether in
+                      portraits, landscapes, or
                       abstract forms.&quot;
                   </blockquote>
                   

@@ -34,14 +34,13 @@ export default function ArtistSection() {
             <div className="w-full flex-shrink-0">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-start">
                 <div>
-                  <div className="relative aspect-square bg-gray-100">
-                    <Image 
-                      src="/images/artist-portrait.png" 
-                      alt="Ink Wash on Paper artwork" 
-                      fill 
-                      className="object-cover"
-                    />
-                  </div>
+                  <Image 
+                    src="/images/artist-portrait.png" 
+                    alt="Ink Wash on Paper artwork" 
+                    width={600}
+                    height={500}
+                    className="w-full h-auto object-contain"
+                  />
                   <p className="text-gray-500 mt-4 text-sm">Ink Wash</p>
                 </div>
                 
@@ -63,23 +62,23 @@ export default function ArtistSection() {
             <div className="w-full flex-shrink-0">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-12 lg:gap-8 items-start">
                 <div className="lg:col-span-2">
-                <div className="flex gap-4 items-end h-[400px]"> {/* Fixed height container */}
-                    <div className="h-full">
+                <div className="flex gap-4 items-end"> 
+                    <div className="flex-1">
                     <Image 
                         src="/images/artist-portrait-2.png" 
                         alt="Oil on Canvas - Portrait 1" 
                         width={500}
                         height={600}
-                        className="h-full w-auto"
+                        className="w-full h-auto max-h-[350px] sm:max-h-[400px] md:max-h-[450px] object-contain"
                     />
                     </div>
-                    <div className="h-full">
+                    <div className="flex-1">
                     <Image 
                         src="/images/artist-portrait-3.png" 
                         alt="Oil on Canvas - Portrait 2" 
                         width={500}
                         height={600}
-                        className="h-full w-auto"
+                        className="w-full h-auto max-h-[350px] sm:max-h-[400px] md:max-h-[450px] object-contain"
                     />
                     </div>
                 </div>
