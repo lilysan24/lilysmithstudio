@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function StorytellerSection() {
   return (
     <section id="storyteller" className="min-h-screen flex items-center bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-8 sm:py-10 md:py-12 w-full">
         {/* Title with line */}
         <div className="flex items-center mb-8 sm:mb-10 md:mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-light pr-4 sm:pr-6 md:pr-8">Storyteller</h2>
