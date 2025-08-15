@@ -62,13 +62,13 @@ export default function Navigation() {
     <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 px-4 sm:px-8 py-4 sm:py-6">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo — matches Figma exactly */}
-        <div className="leading-none font-helvetica-neue">
+        <a href="#" className="leading-none font-helvetica-neue cursor-pointer hover:opacity-80 transition-opacity">
         {/* LILY SMITH — Helvetica Neue Bold 38px, 0% letter-spacing */}
         <div className="text-[38px] font-bold tracking-[0]">LILY SMITH</div>
 
         {/* STUDIO — Helvetica Neue 45 Light 40px, 25% letter-spacing */}
         <div className="text-[40px] font-light tracking-[0.25em]">STUDIO</div>
-        </div>
+        </a>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-6 lg:space-x-8">
