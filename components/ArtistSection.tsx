@@ -61,40 +61,41 @@ export default function ArtistSection() {
 
             {/* Page 2 - Two Portraits */}
             <div className="w-full flex-shrink-0">
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-12 lg:gap-8 items-start">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-12 lg:gap-8 items-start">
                 <div className="lg:col-span-2">
-                  <div className="flex gap-4">
-                    <div className="relative flex-1 aspect-[4/5] bg-gray-100">
-                      <Image 
+                <div className="flex gap-4 items-end h-[400px]"> {/* Fixed height container */}
+                    <div className="h-full">
+                    <Image 
                         src="/images/artist-portrait-2.png" 
                         alt="Oil on Canvas - Portrait 1" 
-                        fill 
-                        className="object-cover"
-                      />
+                        width={500}
+                        height={600}
+                        className="h-full w-auto"
+                    />
                     </div>
-                    <div className="relative flex-1 aspect-[4/5] bg-gray-100">
-                      <Image 
+                    <div className="h-full">
+                    <Image 
                         src="/images/artist-portrait-3.png" 
                         alt="Oil on Canvas - Portrait 2" 
-                        fill 
-                        className="object-cover"
-                      />
+                        width={500}
+                        height={600}
+                        className="h-full w-auto"
+                    />
                     </div>
-                  </div>
-                  <p className="text-gray-500 mt-4 text-sm">Oil on Canvas</p>
+                </div>
+                <p className="text-gray-500 mt-4 text-sm">Oil on Canvas</p>
                 </div>
                 
                 <div className="pt-4 sm:pt-6 lg:pt-8">
-                  <h3 className="text-lg mb-6">02/03</h3>
-                  <h4 className="text-xl sm:text-xl mb-6 font-light tracking-wide">OIL ON CANVAS</h4>
-                  <p className="text-gray-700 leading-relaxed text-base">
+                <h3 className="text-lg mb-6">02/03</h3>
+                <h4 className="text-xl sm:text-xl mb-6 font-light tracking-wide">OIL ON CANVAS</h4>
+                <p className="text-gray-700 leading-relaxed text-base">
                     Expressive portraits capturing the essence of subjects
                     through bold brushwork and vibrant color palettes.
-                  </p>
+                </p>
                 </div>
-              </div>
             </div>
-
+            </div>
             {/* Page 3 - Pears Series */}
             <div className="w-full flex-shrink-0">
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-12 lg:gap-8 items-start">

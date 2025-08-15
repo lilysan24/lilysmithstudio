@@ -75,7 +75,6 @@ export default function DesignerSection() {
                       />
                     </div>
                   </div>
-                  <p className="text-gray-500 mt-4 text-sm">02/03</p>
                 </div>
                 
                 <div className="pt-4 sm:pt-6 lg:pt-8">
@@ -111,7 +110,6 @@ export default function DesignerSection() {
                       />
                     </div>
                   </div>
-                  <p className="text-gray-500 mt-4 text-sm">03/03</p>
                 </div>
                 
                 <div className="pt-4 sm:pt-6 lg:pt-8">
