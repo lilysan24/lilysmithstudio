@@ -58,7 +58,14 @@ export default function AboutSection() {
                   </blockquote>
                   
                   <p className="text-gray-700 mt-8 text-lg">
-                    – Lisa Wagner | Artist & art scholar
+                    – <a 
+                        href="https://www.terrafineart.com/lisa-wagner/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="underline decoration-1 underline-offset-2 hover:opacity-70 transition-opacity"
+                      >
+                        Lisa Wagner
+                      </a> | Artist & art scholar
                   </p>
                 </div>
               </div>
