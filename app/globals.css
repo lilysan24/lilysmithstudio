@@ -15,3 +15,7 @@ html { scroll-behavior: smooth; }
 
 /* Apply PT Mono to body text */
 p, .font-pt-mono { font-family: "PT Mono", monospace; }
+
+/* Smooth mobile wrapping */
+.hyphens-auto { hyphens: auto; }
+.text-balance { text-wrap: balance; } /* modern browsers */

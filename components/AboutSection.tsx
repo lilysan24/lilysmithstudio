@@ -1,4 +1,3 @@
-// components/AboutSection.tsx
 'use client'
 import { useState } from 'react'
 import Image from 'next/image'
@@ -23,7 +22,7 @@ export default function AboutSection() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-light pr-4 sm:pr-6 md:pr-8">About</h2>
           <div className="flex-1 h-[1px] bg-black"></div>
         </div>
-        
+
         {/* Carousel Container */}
         <div className="relative overflow-hidden">
           <div 
@@ -44,20 +43,13 @@ export default function AboutSection() {
                   </div>
                   <p className="text-gray-500 mt-4 text-sm">Graphite on Paper</p>
                 </div>
-                
+
                 <div className="pt-4 sm:pt-6 lg:pt-8">
                   <h3 className="text-lg mb-8">01/03</h3>
-                  
-                  <blockquote className="text-gray-600 text-xl leading-relaxed italic">
-                      &quot;Lily&apos;s expressive paintings
-                      and works on paper capture
-                      the essence of her subjects
-                      in every stroke – whether in
-                      portraits, landscapes, or
-                      abstract forms.&quot;
+                  <blockquote className="text-gray-600 text-lg sm:text-xl leading-relaxed md:leading-8 italic max-w-prose sm:max-w-[60ch] text-balance hyphens-auto break-words">
+                    “Lily’s expressive paintings and works on paper capture the essence of her subjects in every stroke—whether in portraits, landscapes, or abstract forms.”
                   </blockquote>
-                  
-                  <p className="text-gray-700 mt-8 text-lg">
+                  <p className="text-gray-700 mt-8 text-base sm:text-lg leading-relaxed md:leading-8 max-w-prose sm:max-w-[60ch] text-balance hyphens-auto break-words">
                     – <a 
                         href="https://www.terrafineart.com/lisa-wagner/" 
                         target="_blank" 
@@ -65,7 +57,7 @@ export default function AboutSection() {
                         className="underline decoration-1 underline-offset-2 hover:opacity-70 transition-opacity"
                       >
                         Lisa Wagner
-                      </a> | Artist & art scholar
+                      </a> | Artist &amp; art scholar
                   </p>
                 </div>
               </div>
@@ -76,37 +68,28 @@ export default function AboutSection() {
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-12 lg:gap-8 items-start">
                 <div className="lg:col-span-2">
                   <div className="flex gap-4 items-end h-[500px]">
-                    <div className="h-full">
-                      <Image 
-                        src="/images/about-fashion-1.png" 
-                        alt="Fashion sketch - geometric dress" 
-                        width={300}
-                        height={450}
-                        className="h-full w-auto"
-                      />
-                    </div>
-                    <div className="h-full">
-                      <Image 
-                        src="/images/about-fashion-2.png" 
-                        alt="Fashion sketch - layered dress" 
-                        width={300}
-                        height={450}
-                        className="h-full w-auto"
-                      />
-                    </div>
+                    <Image 
+                      src="/images/about-fashion-1.png" 
+                      alt="Fashion sketch - geometric dress" 
+                      width={300}
+                      height={450}
+                      className="h-full w-auto"
+                    />
+                    <Image 
+                      src="/images/about-fashion-2.png" 
+                      alt="Fashion sketch - layered dress" 
+                      width={300}
+                      height={450}
+                      className="h-full w-auto"
+                    />
                   </div>
                 </div>
-                
+
                 <div className="pt-4 sm:pt-6 lg:pt-8">
                   <h3 className="text-lg mb-6">02/03</h3>
-                  <h4 className="text-xl sm:text-xl mb-6 font-light tracking-wide">MULTIDISCIPLINARY ARTIST</h4>
-                  <p className="text-gray-700 leading-relaxed text-base">
-                    I am a multidisciplinary artist working in painting, fashion / 
-                    jewelry design, and narrative. I have painted throughout 
-                    my life, alongside a career in brand storytelling and 
-                    creative direction. That dual practice has given me 
-                    decades of experience in observation, composition, and 
-                    the shaping of emotional meaning.
+                  <h4 className="text-xl mb-6 font-light tracking-wide">MULTIDISCIPLINARY ARTIST</h4>
+                  <p className="text-gray-700 text-base sm:text-lg leading-relaxed md:leading-8 max-w-prose sm:max-w-[60ch] text-balance hyphens-auto break-words">
+                    I am a multidisciplinary artist working in painting, fashion / jewelry design, and narrative. I have painted throughout my life, alongside a career in brand storytelling and creative direction. That dual practice has given me decades of experience in observation, composition, and the shaping of emotional meaning.
                   </p>
                 </div>
               </div>
@@ -125,23 +108,15 @@ export default function AboutSection() {
                     />
                   </div>
                 </div>
-                
+
                 <div className="pt-4 sm:pt-6 lg:pt-8">
                   <h3 className="text-lg mb-6">03/03</h3>
-                  <h4 className="text-xl sm:text-xl mb-6 font-light tracking-wide">MULTIDISCIPLINARY ARTIST</h4>
-                  <p className="text-gray-700 leading-relaxed text-base mb-4">
-                    My paintings—often still lifes and landscapes that shift 
-                    toward portraiture—are intuitive and contemplative, 
-                    revealing traces of presence that go beyond appearance. 
-                    My custom-made jewelry pieces are crafted to hold 
-                    personal meaning and are often designed through close 
-                    collaboration with the wearer. I also create commissioned 
-                    artworks, developing each with a deep attention to the 
-                    subject&apos;s essence.
+                  <h4 className="text-xl mb-6 font-light tracking-wide">MULTIDISCIPLINARY ARTIST</h4>
+                  <p className="text-gray-700 text-base sm:text-lg leading-relaxed md:leading-8 mb-4 max-w-prose sm:max-w-[60ch] text-balance hyphens-auto break-words">
+                    My paintings—often still lifes and landscapes that shift toward portraiture—are intuitive and contemplative, revealing traces of presence that go beyond appearance. My custom-made jewelry pieces are crafted to hold personal meaning and are often designed through close collaboration with the wearer. I also create commissioned artworks, developing each with a deep attention to the subject’s essence.
                   </p>
-                  <p className="text-gray-700 leading-relaxed text-base">
-                    I believe the role of art is not to reflect the outward 
-                    appearance of things, but to reveal what lies beneath.
+                  <p className="text-gray-700 text-base sm:text-lg leading-relaxed md:leading-8 max-w-prose sm:max-w-[60ch] text-balance hyphens-auto break-words">
+                    I believe the role of art is not to reflect the outward appearance of things, but to reveal what lies beneath.
                   </p>
                 </div>
               </div>
